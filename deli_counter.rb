@@ -6,5 +6,6 @@ def line(arr)
     for i in 0...arr.size() do
       out += " #{i+1}. #{arr[i]}"
     end
+    puts out
   end
 end
