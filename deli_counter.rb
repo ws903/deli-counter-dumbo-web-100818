@@ -9,3 +9,5 @@ def line(arr)
     puts out
   end
 end
+
+def take_a_number()
