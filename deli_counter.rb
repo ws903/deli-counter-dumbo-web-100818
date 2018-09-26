@@ -4,8 +4,7 @@ def line(arr)
   else
     out = "The line is currently:"
     for i in 0...arr.size() do
-      out += " #{i+1}. #{arr[i}"
+      out += " #{i+1}. #{arr[i]}"
     end
   end
-  
 end
