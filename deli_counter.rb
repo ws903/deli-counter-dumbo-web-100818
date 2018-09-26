@@ -19,5 +19,8 @@ def now_serving(arr)
   if arr.size() == 0
     "There is nobody waiting to be served!"
   else
+    "Currently serving #{arr[0}."
+  end
+end
     
     
