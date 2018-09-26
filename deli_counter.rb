@@ -11,6 +11,6 @@ def line(arr)
 end
 
 def take_a_number(arr, customer)
-  
   puts "Welcome, #{customer}. You are number #{arr.size()+1} in line."
+  arr.push(customer)
 end
